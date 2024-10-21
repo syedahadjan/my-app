@@ -1,0 +1,56 @@
+.hero_section {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url('../assets/images/cyberpunk-bg.avif') no-repeat center center;
+    background-size: cover;
+    padding: 100px 0;
+    color: #fff; /* White text for contrast */
+}
+
+.hero_subtitle {
+    color: #ff4081; /* Pink color for emphasis */
+}
+
+.hero_content h2 {
+    color: #00e5ff; /* Cyan color for headings */
+}
+
+.buy_btn {
+    background-color: #ff4081; /* Pink for buttons */
+    color: #fff; /* White text */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.buy_btn:hover {
+    background-color: #e91e63; /* Darker pink on hover */
+}
+
+.section_title {
+    color: #00e5ff; /* Cyan color for section titles */
+    margin: 20px 0;
+}
+
+.trending_products, .best_sales, .new_arrivals, .popular_category {
+    background-color: #121212; /* Dark background for sections */
+    padding: 50px 0;
+}
+
+.text-white {
+    color: #fff; /* Ensure text is white */
+}
+
+.timer_count {
+    background-color: #1e1e1e; /* Slightly lighter dark background */
+    padding: 50px 0;
+}
+
+.counter_img {
+    img {
+        max-width: 100%; /* Ensure the image is responsive */
+        height: auto;
+    }
+}
+
+/* Other styles remain unchanged, but ensure they align with the black theme */

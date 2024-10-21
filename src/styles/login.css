@@ -1,0 +1,47 @@
+.auth_form {
+    background: rgba(0, 0, 0, 0.8); /* Darker background for the form */
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5); /* Shadow for depth */
+}
+
+.auth_btn {
+    background: #ff4081; /* Cyberpunk pink color */
+    color: #fff;
+    font-weight: 600;
+    transition: background 0.3s;
+}
+
+.auth_btn:hover {
+    background: #f50057; /* Darker pink on hover */
+}
+
+.auth_form p {
+    margin-top: 30px;
+    color: #fff; /* White text for better readability */
+}
+
+.auth_form p a {
+    color: rgba(255, 225, 225, 0.735);
+    text-decoration: underline; /* Underline link for better visibility */
+}
+
+.auth_form input[type='file'] {
+    color: #fff;
+    cursor: pointer;
+}
+
+.auth_form input {
+    background: transparent; /* Transparent input background */
+    border: 1px solid rgba(255, 255, 255, 0.5); /* Light border */
+    color: #fff; /* White text for inputs */
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 15px; /* Space between inputs */
+    transition: border 0.3s;
+}
+
+.auth_form input:focus {
+    border: 1px solid #ff4081; /* Highlight border on focus */
+    outline: none;
+}

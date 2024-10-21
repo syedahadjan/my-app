@@ -1,0 +1,55 @@
+.filter_widget select {
+    padding: 8px 20px;
+    border: 1px solid #00e5ff; /* Cyan border */
+    cursor: pointer;
+    border-radius: 5px;
+    background: #1e1e1e; /* Dark background */
+    color: #fff; /* White text */
+}
+
+.filter_widget select:focus {
+    outline: none !important;
+    border-color: #ff4081; /* Pink border on focus */
+}
+
+.filter_widget select option {
+    font-size: 0.9rem;
+    background: #1e1e1e; /* Dark background for options */
+    color: #fff; /* White text for options */
+}
+
+.search_box {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #00e5ff; /* Cyan border */
+    border-radius: 5px;
+    padding-right: 12px;
+    padding-left: 2px;
+    background: #1e1e1e; /* Dark background */
+}
+
+.search_box input {
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 8px 10px;
+    background: #1e1e1e; /* Dark background for input */
+    color: #fff; /* White text for input */
+}
+
+.search_box span {
+    color: #00e5ff; /* Cyan for the search icon/text */
+}
+
+@media only screen and (max-width: 768px) {
+    .filter_widget {
+        margin-bottom: 30px;
+    }
+
+    .filter_widget select {
+        padding: 7px 20px;
+        font-size: 0.9rem;
+    }
+}

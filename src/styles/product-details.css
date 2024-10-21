@@ -1,0 +1,111 @@
+.product_details {
+    margin-top: 70px;
+    color: #fff; /* White text for contrast against dark background */
+}
+
+.product_details h2 {
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+    color: #00e5ff; /* Cyan for the heading */
+}
+
+.product_rating span i {
+    color: coral; /* You may choose a neon color if desired */
+}
+
+.product_rating p span {
+    color: #00e5ff; /* Cyan for rating text */
+    font-weight: 500;
+}
+
+.product_price {
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #ff4081; /* Pink for prices */
+}
+
+.tab_wrapper {
+    color: #00e5ff; /* Cyan for tab headers */
+    font-weight: 500;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.active_tab {
+    font-weight: 600;
+    border-bottom: 2px solid #ff4081; /* Pink underline for active tab */
+}
+
+.tab_content p {
+    line-height: 30px;
+    color: #fff; /* White for content text */
+}
+
+.review_wrapper ul li span {
+    color: coral; /* Keep coral for stars */
+    font-weight: 600;
+}
+
+.review_wrapper ul li p {
+    margin-top: 10px;
+    color: #fff; /* White for review text */
+}
+
+.review_form {
+    width: 70%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.review_form h4 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 30px;
+    color: #00e5ff; /* Cyan for review form heading */
+}
+
+.form_group input,
+.form_group textarea {
+    width: 100%;
+    border: 1px solid #00e5ff; /* Cyan border */
+    border-radius: 5px;
+    padding: 8px 20px;
+    background: #1e1e1e; /* Dark background for inputs */
+    color: #fff; /* White text in inputs */
+}
+
+.form_group input:focus,
+.form_group textarea:focus {
+    outline: none;
+    border-color: #ff4081; /* Pink border on focus */
+}
+
+.form_group {
+    margin-bottom: 30px;
+}
+
+.form_group span {
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+    color: coral; /* Coral for span text */
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.related_title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-top: 30px;
+    color: #00e5ff; /* Cyan for related title */
+}
+
+@media only screen and (max-width: 768px) {
+    .product_details h2 {
+        font-size: 1.3rem;
+    }
+
+    .rating_group {
+        column-gap: 1rem !important;
+    }
+}

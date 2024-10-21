@@ -1,0 +1,24 @@
+.quantity-controls {
+    display: flex;
+    align-items: center;
+}
+
+.quantity-controls button {
+    border: none;
+    background: var(--primary-color);
+    color: #fff;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.quantity-controls button:disabled {
+    background: gray;
+    cursor: not-allowed;
+}
+
+.quantity-controls span {
+    margin: 0 10px;
+    font-weight: 500;
+    color: var(--primary-color);
+}

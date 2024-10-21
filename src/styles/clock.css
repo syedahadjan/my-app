@@ -1,0 +1,35 @@
+@media only screen and (max-width: 992px) {
+    .clock_wrapper {
+        justify-content: center; /* Centers the clock content */
+        flex-direction: column; /* Stacks items vertically */
+        padding: 20px; /* Adds padding for better spacing */
+    }
+
+    .clock_data h1 {
+        font-size: 1.1rem !important; /* Adjusts the font size for h1 */
+        text-align: center; /* Centers the text */
+    }
+
+    .clock_data h5 {
+        font-size: 0.9rem !important; /* Adjusts the font size for h5 */
+        text-align: center; /* Centers the text */
+        margin-top: 5px; /* Adds spacing above the h5 element */
+    }
+
+    /* Additional styles for better visual appearance */
+    .clock_data {
+        background-color: rgba(0, 0, 0, 0.7); /* Adds a semi-transparent background */
+        border-radius: 10px; /* Rounds the corners */
+        padding: 15px; /* Adds padding inside the clock data */
+    }
+
+    .clock_data h1, .clock_data h5 {
+        color: #fff; /* Sets the text color to white for better contrast */
+    }
+
+    /* Optional: Add styles for smaller screens */
+    .clock_data span {
+        font-size: 0.8rem; /* Adjusts font size for smaller screens */
+        color: #ddd; /* Lighter color for secondary text */
+    }
+}
